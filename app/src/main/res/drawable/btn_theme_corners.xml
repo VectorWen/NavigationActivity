@@ -1,0 +1,24 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <!-- 按下的情况 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/app_theme_pressed" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <!-- 不可用的时候 -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/app_theme_unable" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+     <!-- 正常情况下 -->
+    <item >
+        <shape>
+            <solid android:color="@color/app_theme" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</selector>
